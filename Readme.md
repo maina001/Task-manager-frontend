@@ -1,6 +1,6 @@
-Create a new React app: To create a new React app, open up a terminal window and run the following command:
-
-lua
+##TASK MANAGER APP
+This app helps you plan schedule together with your todos everyday.
+It filters your works together dates
 Copy code
 npx create-react-app task-manager
 This will create a new React app named "task-manager" in a directory with the same name.
