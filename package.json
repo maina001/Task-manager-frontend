@@ -1,0 +1,19 @@
+{
+  "name": "task-manager-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maina001/Task-manager-frontend.git"
+  },
+  "author": "brian maina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maina001/Task-manager-frontend/issues"
+  },
+  "homepage": "https://github.com/maina001/Task-manager-frontend#readme"
+}
