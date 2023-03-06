@@ -1,16 +1,23 @@
-import { atom } from "recoil";
+import React from 'react';
 
-export const addTaskState = atom({
-  key: "addTaskState", 
-  default: null
-});
+const TaskAtom = ({ task, onToggle }) => {
+  const { id, text, completed } = task;
 
-export const editTaskState = atom({
-  key: "editTaskState", 
-  default: null
-});
+  const handleToggle = () => {
+    onToggle(id);
+  };
 
-export const tasksState = atom({
-  key: "tasksState", 
-  default: []
-});
+  return (
+    <div className={`task ${completed ? 'completed' : ''}`} onClick={handleToggle}>
+      <div className="task-check">
+        <i className={`fas ${completed ? 'fa-check-circle' : 'fa-circle'}`}></i>
+      </div>
+      <div className="task-text">
+        <p>{text}</p>
+      </div>
+    </div>
+  );
+};
+
+export default TaskAtom;
+
