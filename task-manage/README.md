@@ -1,4 +1,8 @@
 # Getting Started with Create React App
+This is a task management applicaation 
+It allows you filter tasks and schedule them on daily basis.
+Plan your your todos with time.
+Able to delete your tasks and add new tasks.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -45,10 +49,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
 ### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+##FRONTEND
+TO access the front-end click this link 
+https://github.com/maina001/taskmanager-backend
+
+## Author
+BRIAN MAINA
